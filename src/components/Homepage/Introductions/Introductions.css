@@ -1,0 +1,36 @@
+.intro {
+  width: 388px;
+  margin: auto;
+  position: relative;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+
+.intro:hover .img-intro {
+  opacity: 0.5;
+  transform: scale(1.4);
+}
+.intro:hover p {
+  top: 50%;
+}
+
+.img-intro {
+  opacity: 0.8;
+  transform: scale(1);
+  transition: all 3.5s;
+}
+
+p {
+  display: block;
+  font-size: 40px;
+  transition: all 0.5s;
+
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p > span {
+  color: #ffc229;
+}

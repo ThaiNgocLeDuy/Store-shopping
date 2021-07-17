@@ -1,0 +1,11 @@
+.ant-card-actions > li:nth-child(2) > span > .anticon:hover {
+    color: deeppink !important;
+}
+
+.ant-card-meta-description {
+    color: red !important;
+}
+
+.ant-card-head-title {
+    font-size: 30px;
+}
